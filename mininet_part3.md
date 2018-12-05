@@ -54,7 +54,7 @@ c. Start the Mininet
 
 ``` 
 if __name__ == '__main__':
-    topo = SingleSwitchTopo()
+    topo = CustomTopo()
     net = Mininet(topo)
     net.start()
 ``` 
