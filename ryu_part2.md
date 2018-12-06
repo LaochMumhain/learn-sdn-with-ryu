@@ -71,7 +71,7 @@ In the Event handler, write your application logic.
 
 3. In Packet_In Handler,
    Inspect the incoming packet,
-      Update the mac_to_port dictionary wth "soruce mac" and " incoming port"
+      Update the mac_to_port dictionary wth "source mac" and " incoming port"
       Check the destination mac is present in the mac_to_port dictionary. 
       if present,
           match = inport, srcmac, dstmac
