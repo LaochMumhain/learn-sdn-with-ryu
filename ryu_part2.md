@@ -56,7 +56,7 @@ def __init__(self, *args, **kwargs):
 super(SimpleSwitch13, self).__init__(*args, **kwargs)
 ```
 
-## step3:  Handle the relavent Openflow events (when the openflow feature request message received, When the openflow packet in message received):
+## step3:  Handle the relevant Openflow events (when the openflow feature request message received, When the openflow packet in message received):
 
 In the Event handler, write your application logic. 
 
